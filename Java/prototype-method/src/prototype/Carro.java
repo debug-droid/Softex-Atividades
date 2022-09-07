@@ -9,4 +9,7 @@ public class Carro extends Veiculo {
 		this.numeroPortas = numeroPortas;
 	}
 
+	public Carro Clones() {
+		return new Carro(this.modelo, this.marca, this.cor, this.numeroRodas, this.numeroPortas);
+	}
 }
