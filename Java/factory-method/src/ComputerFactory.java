@@ -1,11 +1,16 @@
-public class ComputerFactory implements iComputer {
+public class ComputerFactory {
 
-	public static Server createComputer() {
-		return new Server("8192", "1 Tb", "3.90Ghz", "server");
-	}
-	
-	public static Pc createrComputer() {
-		return new Pc("4096", "500Gb", "3.50Ghz", "pc");
+	public static iComputer createComputer(String ram, String hdd, String cpu, String type) throws Exception {
+		
+		switch (type) {
+		case "pc":
+			return new Pc(ram, hdd, cpu, type);
+		case "server":
+			return new Server(ram, hdd, cpu, type);
+		default :
+			throw new Exception("Tipo inválido.");
+		}
+		
 	}
 	
 }
