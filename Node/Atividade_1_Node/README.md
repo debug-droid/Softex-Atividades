@@ -1,0 +1,3 @@
+Questão: Com base nos vídeos 1 e 2, explique como a web funciona a partir do ponto de vista do protocolo cliente servidor. Crie o começo de um projeto em node.js, usando o npm e informe os comandos utilizados.
+
+Resposta: É impossível falar da web e não falar do importante protocolo HTTP(Hypertext Transfer Protocol). É através dele que conseguimos nos comunicar, mandar e requisitar respostas. Quando um usuário digita www.google.com no navegador ele está fazendo uma requisição ao servidor do google onde está armazenado o arquivo html da página, depois disso, vai ser tratada a requisição por alguma linguagem de back-end como javascript, php, java e etc... A linguagem vai fazer uma consulta no banco de dados e a página será retornada para o cliente.
