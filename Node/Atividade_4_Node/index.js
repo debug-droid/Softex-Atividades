@@ -33,8 +33,7 @@ app.get('/users', (req, res) => {
 app.get('/users/:id', (req, res) => {
   console.log(req.params.id);
   console.log(req.query);
- let user = users[req.params.id]; 
- 
+ let user = users[req.query.id]; 
   res.json(user);
 });
 
