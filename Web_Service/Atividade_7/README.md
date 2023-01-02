@@ -1,5 +1,14 @@
-﻿# node-express
-Projeto criado para demonstrar como podemos criar uma API com uma estrutura legal em 10 passos ;) 
+﻿# node-softex
+Crie um web service usando o Node.js e o framework Express.
+Nele, desenvolva duas rotas HTTP com comunicação via JSON.
 
-Link do post:
-https://goo.gl/zMwY28 
+## para baixar as dependências
+```
+npm install
+```
+
+## start no projeto
+Na linha de comando é só digitar: 
+```
+npm start
+```
